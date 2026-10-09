@@ -37,7 +37,7 @@ a{
     transition: all 0.7s;
     padding-inline: 100px;
     border-radius: 12px;
-}
+} 
   
 #botao-contato :hover{
      background-color: rgba(145, 1, 1, 0.801);
@@ -55,7 +55,7 @@ a{
     border-radius: 12px;
 }
 
-    #botao-contatoS :hover{
+    #botao-sobreC :hover{
      background-color: rgba(145, 1, 1, 0.801);
     color: aliceblue;
     transition: all 0.7s;
@@ -63,6 +63,13 @@ a{
     border-radius: 12px;
 }
 
+#botao-mainC :hover{
+     background-color: rgba(145, 1, 1, 0.801);
+    color: aliceblue;
+    transition: all 0.7s;
+    padding-inline: 60px;
+    border-radius: 12px;
+}
 
 
 header{
@@ -195,4 +202,51 @@ details[open] summary::before {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 
+}
+
+#h1-contato{
+ text-align: center;
+ padding: 50px;
+ color: #cc0101;
+
+
+}
+
+#paragrafo-contato{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+#formulario{
+      background-color: #1f1e1e;
+    color: rgba(255, 3, 3, 0.829);
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: px;
+    resize: none;
+}
+
+input, select, textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #3b2a1a;
+  margin-bottom: 15px;
+  
+}
+
+button{
+    background-color: #ff0101;
+    border-radius: 12px;
+    border: none;
+    
+
+}
+
+legend{
+    text-align: center;
 }

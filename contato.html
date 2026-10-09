@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário para entrar em contato">
+
+    <title> Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="botao-mainC">
+            <p>Main</p>
+        </a>
+
+        <a href="sobre.html" id="botao-sobreC">
+            <p>Sobre</p>
+
+        </a>
+    </header>
+
+    <main>
+        <section>
+            <nav>
+                <h1 id="h1-contato"> Entre no nosso Fórum</h1>
+                <p id="paragrafo-contato" ><strong>para saber mais sobre as atualizações do jogo e suas teorias</strong>.</p>
+            </nav>
+        </section>
+
+        <section>
+            <form id="formulario">
+                <fieldset>
+                    <legend> Informações pessoais</legend>
+
+                    <label for="nome"> Nome </label> <br>
+                    <input type="text" name="nome" id="nome" placeholder="Samilly Dehbora Claraviol" required> <br>
+
+                    <label for="email-cadastro" required> Email </label><br>
+                    <input type="email" name="email-cadastro" id="email-cadastro" placeholder="@gmail.com" required>
+                    <br>
+
+                    <label for="numero"> Número de telefone</label> <br>
+                    <input type="tel" name="numero" id="numero" placeholder="(11) 9xxxx-xxxx" required><br>
+                </fieldset>
+
+                <label for="mensagem">Mensagem</label> <br>
+                <textarea id="mensagem" name="mensagem" rows="5" cols="40"
+                    placeholder="Escreva sua mensagem, cowboy..."></textarea>
+
+
+                <label for="assunto"></label> <br>
+                <select id="" name="">
+
+                    <option value="">Escolha sua Plataforma</option> <br>
+                    <option value="elogio">Xbox</option> <br>
+                    <option value="duvida">Playstation</option> <br>
+                    <option value="missao">PC</option> <br>
+                </select>
+
+                <button type="submit"> Enviar</button> <br>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
